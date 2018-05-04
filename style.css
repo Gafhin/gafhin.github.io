@@ -1,3 +1,136 @@
 body{
-    background-color: grey;
+    width: 80%;
+    margin-left: 10%;
+}
+#banner-section{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    margin:0px;
+    padding: 0px;
+}
+#logo{
+    text-align: center;
+    height: 30%;
+}
+#logo>img{
+    width: 5%;
+    padding-top: 3%;
+}
+#banner-text{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+#down-button{
+    text-align: center;
+    padding: 8%;
+}
+#down-button>a>img{
+    width: 2%;
+}
+#middle-section{
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    float: left;
+    margin-bottom: 60px;
+}
+#top-section{
+    margin: 50px 0 50px 0;
+}
+.section-text{
+    margin-top: 20px;
+}
+.section-text>span{
+    font-size: 30px;
+}
+#middle-row{
+    width: 100%;
+    float: left;
+    margin-left: 4%;
+}
+.column{
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+    text-align: left;
+    line-height: 150%;
+}
+footer{
+    background-color: black;
+    height: 15px;
+    width: 100%;
+    float: left;
+}
+
+/* RESPONSIVE VIEW */
+
+@media only screen and (max-width:900px){
+ /*    body{
+    width: 80%;
+    margin-left: 10%;
+} */
+#banner-section{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    margin:0px;
+    padding: 0px;
+}
+#logo{
+    text-align: center;
+}
+#logo>img{
+    width: 10%;
+    padding-top: 3%;
+}
+#banner-text{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+#down-button{
+    text-align: center;
+    padding: 8%;
+}
+#down-button>a>img{
+    width: 8%;
+}
+#middle-section{
+    width: 100%;
+    text-align: center;
+    margin-left:0;
+    float: left;
+    margin-bottom: 60px;
+    font-size: 12px;
+}
+#top-section{
+    margin: 20px 0 20px 0;
+}
+.section-text{
+    margin-top: 10px;
+}
+.section-text>span{
+    font-size: 20px;
+}
+#middle-row{
+    width: 100%;
+    float: left;
+    margin-left: 0%;
+    height: 200px;
+}
+.column{
+    width: 100%;
+    float: left;
+    margin-right: 2%;
+    text-align: center;
+    line-height: 150%;
+}
+footer{
+    background-color: black;
+    height: 15px;
+    width: 100%;
+    float: left;
+}
 }
