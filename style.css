@@ -82,13 +82,13 @@ footer{
     text-align: center;
 }
 #logo>img{
-    width: 10%;
+    width: 20%;
     padding-top: 3%;
 }
 #banner-text{
     color: white;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
 }
 #down-button{
     text-align: center;
